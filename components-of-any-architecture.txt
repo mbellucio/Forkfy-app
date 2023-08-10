@@ -1,0 +1,30 @@
+BUSINESS LOGIC
+  -> Code that solves the actual business problem
+  -> Directly Related to what business does and
+    what it needs
+  -> Example: Sending messages, storing transactions,
+    calculating taxes
+
+STATE
+  -> Essentially stores all the data about the 
+    application
+  -> Should be the 'single source of truth'
+  -> UI should be kept in sync with the STATE
+  -> State libraries exist
+
+HTTP LIBRARY
+  ->  Responsible for making and receiving
+    AJAX requests
+  -> Optional but almost always necessary in
+    real-world apps
+
+APPLICATION LOGIC (ROUTER) 
+  -> Code that is only concerned about the 
+    implementation of the application itself
+  -> Handles navigation and UI events
+
+PRESENTATION LOGIC (UI LAYER)
+  -> Code that is concerned about the visible 
+    part of the application 
+  -> Essentialy displays application state
+
